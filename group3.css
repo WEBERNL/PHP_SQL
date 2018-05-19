@@ -1,0 +1,58 @@
+
+body, form, input, option, table, th, td {
+	font-family: oxygen;
+	text-align: center;
+}
+
+table {
+	max-width: 70%;
+	margin: 1% auto; 
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+th {
+	background-color: rgb(209,200,255);
+}
+
+td {
+	background-color: rgb(209,200,255);
+	background-color: rgba(209,200,255, .3);
+}
+
+form#bicycleMaintenanceEdits {
+	max-width: 70%;
+	margin: 1% auto; 
+}
+
+form#bicycleMaintenanceEdits label {
+	display: inline-block;
+	width: 45%;
+	float: left;
+	text-align: right;
+}
+
+form#bicycleMaintenanceEdits input, form#bicycleMaintenanceEdits select {
+	display: inline-block;
+	width: 30%;
+	float: left;
+}
+
+form#bicycleMaintenanceEdits input {
+	background-color: rgb(209,200,255);
+	background-color: rgba(209,200,255, .3);
+}
+
+form#bicycleMaintenanceEdits input[type="submit"] {
+	display: inline-block;
+	width: 70px;
+	margin: 0% 0% 0% 45%;
+	font-family: oxygen;
+	text-align: center;
+	color: buttontext;
+    background-color: buttonface;
+	
+}
